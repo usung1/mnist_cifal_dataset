@@ -17,4 +17,13 @@ git pull origin main --allow-unrelated-histories
 이 명령어는 서로 다른 히스토리를 갖는 브랜치를 병합할 때 사용됩니다. 이를 사용하면 서로 다른 히스토리를 갖는 브랜치를 병합할 수 있습니다.
 
 git clone https://github.com/usung1/Portfolio.git mynewre
+
+# 현재 브랜치에서 새로운 원격 저장소의 변경사항을 가져옵니다.
+git pull origin main
+
+# 가져온 변경사항을 현재 브랜치에 적용합니다.
+git merge origin/main --allow-unrelated-histories
+
+# 변경사항을 원격 저장소로 푸시합니다.
+git push origin main
 """
