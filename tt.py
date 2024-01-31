@@ -18,6 +18,8 @@ git pull origin main --allow-unrelated-histories
 
 git clone https://github.com/usung1/Portfolio.git mynewre
 
+
+
 # 현재 브랜치에서 새로운 원격 저장소의 변경사항을 가져옵니다.
 git pull origin main
 
