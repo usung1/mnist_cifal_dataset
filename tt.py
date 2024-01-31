@@ -30,4 +30,17 @@ git merge origin/main --allow-unrelated-histories
 
 # 변경사항을 원격 저장소로 푸시합니다.
 git push origin main
+
+
+
+
+
+# 현재 등록된 원격 저장소 확인
+git remote -v
+
+# "origin"이라는 원격 저장소를 제거
+git remote remove origin
+
+# 새로운 원격 저장소 추가
+git remote add <new-remote-name> <repository-url>
 """
